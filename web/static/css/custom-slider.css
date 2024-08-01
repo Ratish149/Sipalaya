@@ -1,0 +1,108 @@
+.sipalaya_hero_section .sipalaya-ptb {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.sipalaya_hero_section .sipalaya-thumb img {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1599px) {
+    .sipalaya_hero_section .sipalaya-thumb img {
+        margin-right: 0
+    }
+}
+
+
+.sipalaya_hero_section .sipalaya-title {
+    text-transform: capitalize
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    .sipalaya_hero_section .sipalaya-title {
+        font-size: 52px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .sipalaya_hero_section .sipalaya-title {
+        font-size: 40px
+    }
+}
+
+.sipalaya_hero_section .sipalaya-ptb {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.sipalaya_hero_section .sipalaya-thumb img {
+    max-width: inherit;
+    margin-left: 0;
+    margin-right: -120px
+}
+
+.sipalaya-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    .sipalaya-title {
+        font-size: 55px
+    }
+}
+
+@media(max-width: 767px) {
+    .sipalaya-title {
+        font-size: 40px
+    }
+}
+
+.sipalaya-title-box p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1399px) {
+    .sipalaya-title-box p br {
+        display: none
+    }
+}
+
+@media(max-width: 767px) {
+    .sipalaya-title-box p {
+        font-size: 16px
+    }
+
+    .sipalaya-title-box p br {
+        display: none
+    }
+}
+
+.sipalaya_hero_section {
+    padding-bottom: 30px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.sipalaya-hero-shape-1 {
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    z-index: 1;
+}
+
+.sipalaya-hero-shape-2 {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    z-index: 1;
+}

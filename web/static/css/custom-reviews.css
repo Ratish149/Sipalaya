@@ -1,0 +1,140 @@
+.rbt-testimonial-box .inner {
+    padding: 50px 40px;
+    background: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.1));
+    box-shadow: 0 13px 48px 0 rgba(215,216,222,.44);
+}
+
+.rbt-testimonial-box, .rbt-testimonial-box .inner {
+    position: relative;
+    z-index: 2;
+    border-radius: 6px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .rbt-testimonial-box .inner {
+        padding: 40px 30px;
+    }
+}
+
+.rbt-testimonial-box .inner.bg-color-primary-opacity:before {
+    filter: grayscale(1);
+}
+
+.rbt-testimonial-box .inner:before {
+    position: absolute;
+    content: "";
+    right: 40px;
+    top: 40px;
+    z-index: -1;
+    background-image: url(../images/quote.svg);
+    background-repeat: no-repeat,repeat;
+    width: 52px;
+    height: 44px;
+}
+
+.rbt-testimonial-box .clint-info-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.rbt-testimonial-box .clint-info-wrapper .thumb {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    height: 70px;
+    padding: 3px;
+    background: #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    min-width: 70px;
+    border: 2px solid #2f57ef21;
+}
+
+.rbt-testimonial-box .clint-info-wrapper .thumb img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.rbt-testimonial-box .clint-info-wrapper .client-info {
+    padding-left: 25px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .rbt-testimonial-box .clint-info-wrapper .client-info {
+        padding-left: 15px;
+    }
+}
+
+.rbt-testimonial-box .clint-info-wrapper .client-info .title {
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .rbt-testimonial-box .clint-info-wrapper .client-info .title {
+        font-size: 18px;
+    }
+}
+
+.rbt-testimonial-box .clint-info-wrapper .client-info span {
+    line-height: 28px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.rbt-testimonial-box .description {
+    margin-top: 20px;
+}
+
+.rbt-testimonial-box .description p {
+    margin-bottom: 0;
+}
+
+.rating a {
+    display: inline-block;
+}
+
+.rating a i {
+    color: #ff9747;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.sipalaya-testimonial .section-title{
+    max-width: 700px;
+    margin: auto;
+}
+
+.sipalaya-testimonial .section-title h2{
+    font-weight: bold;
+}
+
+.sipalaya-testimonial .section-title p{
+    color: #6b7385;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    --swiper-navigation-size:15px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+@media only screen and (min-width:800px){
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: none;
+    }
+    
+    .sipalaya-testimonial:hover .swiper-button-next,
+    .sipalaya-testimonial:hover .swiper-button-prev{
+        display: flex;
+    }
+}
+
+body .sipalaya-testimonial{
+    margin-bottom:3rem;
+}
